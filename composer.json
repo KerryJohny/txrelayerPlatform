@@ -1,0 +1,30 @@
+{
+    "name": "KerryJohny/tx-relayer",
+    "description": "tx-relayer - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tx-relayer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tx-relayer\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KerryJohny"
+        }
+    ]
+}
